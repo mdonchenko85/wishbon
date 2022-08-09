@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.makeFlex {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navContainer {
+    max-width: 1200px;
+  /*  margin: auto;*/
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header nav ul li{
+    margin: 0 16px
+}
+header nav li a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1B1A1A;
+
+}
+.navButtn{
+    margin: 0 40px;  background: #1B1A1A;
+    border-radius: 14px;
+    text-align: center;
+    padding: 12px 20px
+}
+.navButtnASt{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.mainSection{
+    background-color: #ECE7E4;
+    height: 100vh;
+    position: relative
+}
+.divStyleMain {
+    max-width: 1200px;
+
+  /*  margin: auto;
+    display: flex;
+    justify-content: space-between;*/
+}
+.mainSectionSize {
+    max-width: 509px;
+    padding-top: 137px;
+}
+.wishbPartnSt {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+.mainPhraseSt {
+    margin-top: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #1B1A1A;
+}
+.mainSectionTxtSt{
+    margin-top: 18px;
+    margin-bottom: 41px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #403E3B;
+}
+
+.mainSectionASt{
+    margin-top: 41px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+}
+.mainImgSt{
+    background-image: url('../image/mainImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 52%;
+    height: 100vh;
+}
+.secondSectionSt{
+    background-color: #E5E5E5;
+   /* height: 120vh;
+    position: relative*/
+}
+
+.secondContainerSt {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 750px;
+
+    /*margin: auto;
+     display: flex;
+    justify-content:space-between*/
+}
+
+.secondSectionHeaderSt{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+}
+.secondSectionParag {
+    margin-bottom: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+}
+
+.secondSectionParagrafSize {
+    max-width: 450px;
+}
+
+.secondSectionImgSt {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: left
+}
+
+.secondSectionImgMargin{
+    margin-top: 20px
+}
+.secondSectionImgTxtSt {
+    margin-left: 25px;
+    margin-top: 50px
+}
+
+.prosesSecSt{
+    padding-top: 96px;
+    padding-bottom: 128px;
+    max-width: 750px;
+    margin: auto;
+}
+.prosesSecFirstLineSt {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+.prosesSecHeadSt {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    text-align: center;
+    color: #1B1A1A;
+}
+
+.prosesSecBlockSt{
+    max-width: 1000px;
+    align-items: center;
+}
+
+.prosesDiscBlocSize{
+    max-width: 250px;
+}
+
+.prosesDiscBlocImg{
+    margin-left: 65px
+}
+
+.prosesDiscBlocLine {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #403E3B;
+}
+.prosesDiscArticleSt{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #645C55;
+}
+.sCollier{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+}
+.seniorPartner{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+}
